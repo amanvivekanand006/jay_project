@@ -1,0 +1,43 @@
+.thanks {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .thanks h1 {
+    font-size: 3em;
+    animation: fadeIn 2s ease-in-out;
+  }
+  .thanks p {
+    font-size: 1.5em;
+    animation: fadeIn 2s ease-in-out 1s;
+  }
+  .thanks a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #feb47b;
+    background: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  a:hover {
+    background-color: #ff7e5f;
+    color: #ffffff;
+    transform: scale(1.1);
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

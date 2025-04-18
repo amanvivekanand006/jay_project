@@ -1,0 +1,84 @@
+.test-checkout-container{
+    margin-top: 110px;
+    margin-left: 360px;
+    margin-bottom: 40px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.checkout-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 80vh; */
+    width: 100%;
+    gap: 10px;
+}
+
+.checkout-form h2{
+    font-size: 3rem;
+}
+
+.subjectname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #272640;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 1.2rem;
+}
+.subjectname label{
+    color:#272640;
+}
+
+.checkout-form #subjectname  input{
+    width: 220px;
+    height: 40px;
+}
+
+.checkout-form input {
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    height: 40px;
+    width: 600px;
+    box-shadow: 2px 2px 7px rgb(136, 133, 133);
+}
+
+label {
+    font-size: 20px;
+}
+
+.form-group label{
+    width: 120px;
+    height: 40px;
+}
+
+.checkout-form button{
+    width: 100px;
+    margin: 10px;
+    height: 40px;
+    background-color: #272640;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E06666;
+}

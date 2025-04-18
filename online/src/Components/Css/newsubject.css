@@ -1,0 +1,92 @@
+
+  /* NEW: Two-column layout container */
+  .exam-sections {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  /* Individual section for Objective/Subjective */
+  .exam-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .exam-section h2{
+    text-align: center;
+  }
+
+  /* .section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  } */
+  
+  .exam-section .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: flex-start;
+  }
+  
+  /* Updated card style */
+  .exam-section .card-container .card {
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 160px;
+    text-align: center;
+    padding: 12px;
+  }
+  
+  .exam-section .card-container .align img {
+    height: 120px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .exam-section .card-container .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  }
+  
+  .exam-section .card-container .card-img {
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  .exam-section .card-container .card-btn {
+    background-color: #272640;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .exam-section .card-container .card-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  .exam-section .card-container .card-btn:hover {
+    background-color: #e06666;
+  }
+  

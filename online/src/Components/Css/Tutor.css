@@ -1,0 +1,64 @@
+#tutor-home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    gap: 5rem;
+    background-color: #ffb703;
+    /* background-color: #EDCBC2; */
+    color: whitesmoke;
+  }
+  
+  .tutor-hero img {
+    flex: 1;
+    margin-top: 100px;
+    width: 700px;
+    border-radius: 30px;
+    padding: 10px;
+  }
+
+  .tutor-welcome h2:hover{
+    flex: 1;
+   font-size: 40px;
+   position:relative;
+   color: black;
+   transition: 0.5s;
+   cursor: pointer;
+  }
+
+
+  .tutor-section {
+    background-color: #6c91b6;
+    /* background-color: #D4D4D2; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 700px;
+    min-height: 700px;  /* Ensures enough height */
+    padding-bottom: 60px;
+  }
+  .tutor-section h1{
+      font-size: 3rem;
+  }
+  .tutor-section h2{
+    font-size: 2rem;
+}
+  .tutor-names {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 20px;
+  }
+  
+  #tutor {
+    width: 350px;
+    background-color: aliceblue;
+    color: goldenrod;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgb(109, 107, 107);
+    border-radius: 10px;
+  }
+  

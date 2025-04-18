@@ -1,0 +1,97 @@
+/* login.css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } */
+
+ 
+  .login-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Login {
+    margin-left: 550px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+  }
+  
+  .Login h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    height: 50px;
+    color: white;
+    background-color: #272640;;
+  }
+  
+  .loginform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .loginform input[type="text"],
+  .loginform input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .loginform button {
+    width: 100%;
+    padding: 10px;
+    background-color: #272640;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginform button:hover {
+    background-color: lightcoral;
+  }
+  
+  .loginform a {
+    display: block;
+    margin-top: 10px;
+    color: lightcoral;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .signup {
+    margin-top: 20px;
+  }
+  
+  .signup p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .signup a {
+    color: #272640;
+    text-decoration: none;
+  }
+  
+  .signup a:hover {
+    text-decoration: none;
+  }
+  

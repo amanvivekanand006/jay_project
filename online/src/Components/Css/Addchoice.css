@@ -1,0 +1,59 @@
+.multiple-choice {
+    max-width: 600px;
+    margin: 140px auto;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .multiple-choice input[type="text"],
+  .multiple-choice input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .multiple-choice input[type="text"]:focus,
+  .multiple-choice input[type="number"]:focus {
+    border-color: #4caf50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+  }
+  
+  .multiple-choice button {
+    padding: 10px 18px;
+    background-color: #272640;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .multiple-choice button:hover {
+    background-color: #E06666;
+  }
+  
+  .multiple-choice button[type="button"] {
+    background-color: #272640;
+  }
+  
+  .multiple-choice button[type="button"]:hover {
+    background-color: #E06666;
+  }
+  
+  .multiple-choice div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  

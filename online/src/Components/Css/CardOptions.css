@@ -1,0 +1,42 @@
+.exam-card-container {
+    margin-top: 100px;
+    margin-bottom: 225px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .exam-card-container .card {
+    width: 220px;
+    height: 150px;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .exam-card-container .card:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-5px);
+  }
+  
+  .exam-card-container .card li {
+    list-style: none;
+  }
+  
+  .exam-card-container .card li a {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .exam-card-container .card li a:hover {
+    color: #272640;
+  }
+  
