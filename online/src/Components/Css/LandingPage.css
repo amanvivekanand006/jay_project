@@ -76,7 +76,7 @@ body {
     z-index: 0;
   }
   
-  .video-container video {
+  .video-container img {
     position: absolute;
     top: 50%;
     left: 720px;

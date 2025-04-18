@@ -1,7 +1,7 @@
 import React from 'react'
 import tutor from './Images/tutor1.jpg'
 // import tutor from './Images/tutor.jpg'
-import tutorvideo from './Images/tutorvideo.mp4'
+// import tutorvideo from './Images/tutorvideo.mp4'
 import './Css/Tutor.css'
 import 'animate.css';
 
