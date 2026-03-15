@@ -88,6 +88,16 @@ const Layout4 = ({ children }) => {
   );
 };
 
+const Layout5 = ({ children }) => {
+  return (
+    <>
+      {children}
+      <Tutorfooter />
+    </>
+  );
+};
+
+
 
 const router = createBrowserRouter([
   {
@@ -119,6 +129,11 @@ const router = createBrowserRouter([
     element: <Layout2><Tutorsubjects/></Layout2>,
   },
   {
+    path: "/subjects3",
+    element: <Layout5><Tutorsubjects/></Layout5>,
+  },
+  
+  {
     path: "/marks2",
     element: <Layout2><Marks/></Layout2>,
   },
@@ -140,11 +155,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/tutor_q_cust/:id",
-    element: <Layout2><Tutorquestions/></Layout2>,
+    element: <Layout5><Tutorquestions/></Layout5>,
   },
   {
     path: "/addquestion",
-    element: <Layout2><Addtest/></Layout2>,
+    element: <Layout5><Addtest/></Layout5>,
   },
   {
     path: "/register",
@@ -218,7 +233,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/add_choice_exam/",
-    element:<Layout2><ObjectiveExamForm/></Layout2>,
+    element:<Layout5><ObjectiveExamForm/></Layout5>,
   },
   {
     path: "/report/",

@@ -14,7 +14,7 @@ const UploadQuestionBank = () => {
     formData.append("pdf_file", pdfFile);
 
     try {
-      await axios.post("http://localhost:8000/api/upload-question-bank/", formData, {
+      await axios.post("http://127.0.0.1:8000/upload_banks/", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
           Authorization: `Bearer ${localStorage.getItem("access_token")}`,

@@ -27,11 +27,11 @@ export default function Admindashboard() {
         </div>
 
         <div class="admin-card" id="complaints">
-          <h2><Link to="/subjects2">Tests Questions</Link></h2>
+          <h2><Link to="/subjects3">Tests Questions</Link></h2>
         </div>
 
         <div class="admin-card" id="users">
-          <h2><Link to="/marks2">Marks Reports</Link></h2>
+          <h2><Link to="/marks3">Marks Reports</Link></h2>
           <div class="details">
           </div>
         </div>
